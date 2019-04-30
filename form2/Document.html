@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+            <nav class="navbar bg-light nav-pills navbar-expand-lg navbar-light relative-top justify-content-center ">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a href="#" id="firstNavLink" class="nav-link navbar-link">Home</a></li>
+                    <li class="nav-item"><a href="#" id="secondNavLink" class="nav-link navbar-link">Support</a></li>
+                    <li class="nav-item"><a href="#" id="thirdNavLink" class="nav-link navbar-link">About</a></li>
+                    <li class="nav-item"><a href="#" id="forthNavLink" class="nav-link navbar-link">Profile</a></li>
+                </ul>
+            </nav>
+
+        <div class="main row">
+            <div class="unit1 col">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="unit2 col">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a href="#firstContent" data-toggle="tab" id="firstTab" class="nav-link active">Real Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#secondContent" data-toggle="tab" id="secondTab" class="nav-link">Virtual Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#thirdContent" data-toggle="tab" id="thirdTab" class="nav-link">Acception</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="firstContent" class="container tab-pane active">
+                        <h2>Fill Out This Form:</h2>
+                        <small>This should be your real personal information</small>
+                        <form action="" class="firstForm">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="firstName">First Name:</label>
+                                        <input type="text" name="" id="firstName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="lastName">Last Name:</label>
+                                        <input type="text" name="" id="lastName" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" name="" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Phone Number:</label>
+                                <input type="text" name="" id="number" class="form-control">
+                            </div>
+                            <input type="button" value="Next Step" class="btn btn-primary">
+                        </form>
+                    </div>
+                    <div id="secondContent" class="container tab-pane fade">
+                        <h2>This Form Gonna Be Your Virtual Personal Information</h2>
+                        <form action="#" class="form">
+                            <div class="form-group">
+                                <label for="userName">User Name:</label>
+                                <input type="text" name="" id="userName" class="form-control">
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="pwd">Password:</label>
+                                        <input type="password" name="" id="pwd" class="form-control">
+                                    </div>
+                                </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="pwd2">Confirm:</label>
+                                            <input type="text" name="" id="confirm" class="form-control">
+                                        </div>
+                                    </div>
+                            </div>
+                            <input type="button" value="Next Step" class="btn btn-primary">
+                        </form>
+                    </div>
+                    <div id="thirdContent" class="container tab-pane fade">
+                        <h2>Accept This Contraction To Sign Up</h2>
+                        <form action="" class="thirdForm">
+                            <div class="form-check">
+                                <p id="acceptionText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <input type="checkbox" name="" id="accept" class="form-check-input">
+                                <label for="accept" class="form-check-label">Accept These Terms Motha Fucker</label>
+                            </div>
+                            <input type="button" value="Finish" class="btn btn-primary">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            
+        <footer class="footer">
+            <p class="footerParag text-white">Footer</p>
+        </footer>
+    </body>
+</html>

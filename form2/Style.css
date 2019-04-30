@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #ecf0f1;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 18px;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+}
+
+.navbar {
+    border-bottom: solid 2px #2c3e50;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+@media only screen and (max-width: 684px) {
+    /* .unit1 {
+        position: absolute;
+        max-width: 100%;
+        float: left;
+    } */
+    
+}
+
+nav li {
+    margin: 0px 30px 0px 30px
+}
+
+.bg-color {
+    background: #bdc3c7;
+}
+
+.unit1 {
+    background:  url("./Images/Cover.png");
+    border-right: solid 2px #2c3e50;
+    position: relative;
+    color: white;
+    min-height: 640px;
+    /* min-width: 45%; */
+    max-width: 45%;
+    float: left;
+    padding: 120px 60px 0px 60px ;
+    text-indent: 70px;
+    text-align: justify;
+}
+
+.unit2 {
+    position: relative;
+    color: black;
+    float: left;
+}
+
+.unit2 .nav {
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.form {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#firstContent, #secondContent, #thirdContent {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.btn {
+    margin-top: 2%;
+    float: right;
+}
+
+#acceptionText {
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.footer {
+    bottom: 0;
+    width: 101%;
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    position: relative;
+    background: #7f8c8d;
+    font-size: 22px;
+    color: black;
+    border-top: solid 2px #2c3e50;
+}
